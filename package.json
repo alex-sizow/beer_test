@@ -2,15 +2,19 @@
 	"name": "beer",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://alex-sizow.github.io/beer_test/",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"export": "next export"
+		"export": "next export",
+		"deploy": "gh-pages -d build",
+		"predeploy": "npm run build"
 	},
 	"dependencies": {
 		"framer-motion": "^6.5.1",
+		"gh-pages": "^4.0.0",
 		"next": "12.2.3",
 		"node-sass": "^7.0.1",
 		"react": "18.2.0",

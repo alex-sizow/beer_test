@@ -1,0 +1,21 @@
+.post {
+	max-width: 1200px;
+	background-color: white;
+	border-radius: 30px;
+	margin: 20px 6%;
+	padding: 80px 5%;
+	display: flex;
+
+	&__text {
+		margin-left: 20px;
+		display: flex;
+		flex-direction: column;
+		&_name {
+			font-size: 32px;
+		}
+
+		p {
+			margin: 11px 20px;
+		}
+	}
+}
